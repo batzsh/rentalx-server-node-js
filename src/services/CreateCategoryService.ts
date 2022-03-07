@@ -6,15 +6,15 @@ interface IRequest {
 }
 
 export class CreateCategoryService {
-  execute({ name, description }: IRequest) {
-    const categoriesRepository = new CategoriesRepository();
+  constructor(private categoriesRepository: CategoriesRepository) {}
 
-    const categoryAlreadyExists = categoriesRepository.findByName(name);
+  execute({ name, description }: IRequest): void {
+    const categoryAlreadyExists = this.categoriesRepository.findByName(name);
 
     if (categoryAlreadyExists) {
       throw new Error("Category already exists");
     }
 
-    categoriesRepository.create({ name, description });
+    this.categoriesRepository.create({ name, description });
   }
 }
