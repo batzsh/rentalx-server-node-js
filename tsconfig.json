@@ -3,7 +3,8 @@
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "resolveJsonModule": true
   },
   "include": ["src/**/*", "tests/**/*", "src/server.ts", "*.ts"],
   "exclude": ["node_modules/**/*"]

@@ -1,0 +1,11 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "tilte": "RentalX Documentation",
+    "description": "This is an API Rent",
+    "version": "0.0.1",
+    "contact": {
+      "email": "henrique.balmant@gmail.com"
+    }
+  }
+}
