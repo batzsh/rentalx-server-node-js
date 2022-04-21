@@ -13,7 +13,8 @@
   },
   "homepage": "https://github.com/henbalmant/rentalx",
   "scripts": {
-    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules ./src/server.ts"
+    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules ./src/server.ts",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli"
   },
   "dependencies": {
     "csv-parse": "4.15.3",
@@ -21,7 +22,7 @@
     "multer": "^1.4.4",
     "pg": "^8.7.3",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.3.6",
+    "typeorm": "0.2.45",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
