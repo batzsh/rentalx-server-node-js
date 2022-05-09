@@ -6,7 +6,18 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@config/*": ["config/*"],
+      "@errors/*": ["errors/*"],
+      "@middlewares/*": ["middlewares/*"],
+      "@modules/*": ["modules/*"],
+      "@routes/*": ["routes/*"],
+      "@shared/*": ["shared/*"],
+      "@utils/*": ["utils/*"],
+      "@mocks/*": ["../tests/mocks/*"]
+    }
   },
   "include": ["src/**/*", "tests/**/*", "src/server.ts", "*.ts"],
   "exclude": ["node_modules/**/*"]

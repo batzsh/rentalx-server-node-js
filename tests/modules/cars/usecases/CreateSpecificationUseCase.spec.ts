@@ -1,7 +1,7 @@
-import { AppError } from "../../../../src/errors/AppError";
-import { Specification } from "../../../../src/modules/cars/entities/Specification";
-import { CreateSpecificationUseCase } from "../../../../src/modules/cars/useCases/createSpecification/CreateSpecificationUseCase";
-import { SpecificationsRepositoryMock } from "../../../mocks/repositories/SpecificationRepositoryMock";
+import { AppError } from "@errors/AppError";
+import { Specification } from "@modules/cars/entities/Specification";
+import { CreateSpecificationUseCase } from "@modules/cars/useCases/createSpecification/CreateSpecificationUseCase";
+import { SpecificationsRepositoryMock } from "@mocks/repositories/SpecificationRepositoryMock";
 
 let createSpecificationUseCase: CreateSpecificationUseCase;
 let specificationsRepositoryMock: SpecificationsRepositoryMock;

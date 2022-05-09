@@ -1,7 +1,7 @@
-import { AppError } from "../../../../src/errors/AppError";
-import { Category } from "../../../../src/modules/cars/entities/Category";
-import { CreateCategoryUseCase } from "../../../../src/modules/cars/useCases/createCategory/CreateCategoryUseCase";
-import { CategoriesRepositoryMock } from "../../../mocks/repositories/CategoriesRepositoryMock";
+import { AppError } from "@errors/AppError";
+import { Category } from "@modules/cars/entities/Category";
+import { CreateCategoryUseCase } from "@modules/cars/useCases/createCategory/CreateCategoryUseCase";
+import { CategoriesRepositoryMock } from "@mocks/repositories/CategoriesRepositoryMock";
 
 let createCategoryUseCase: CreateCategoryUseCase;
 let categoriesRepositoryMock: CategoriesRepositoryMock;

@@ -1,8 +1,8 @@
-import { Specification } from "../../../src/modules/cars/entities/Specification";
+import { Specification } from "@modules/cars/entities/Specification";
 import {
   ICreateSpecificationDTO,
   ISpecificationsRepository
-} from "../../../src/modules/cars/repositories/ISpecificationsRepository";
+} from "@modules/cars/repositories/ISpecificationsRepository";
 
 export class SpecificationsRepositoryMock implements ISpecificationsRepository {
   specifications: Specification[] = [];

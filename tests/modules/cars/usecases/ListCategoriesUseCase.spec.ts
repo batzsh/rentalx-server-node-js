@@ -1,7 +1,7 @@
-import { Category } from "../../../../src/modules/cars/entities/Category";
-import { CreateCategoryUseCase } from "../../../../src/modules/cars/useCases/createCategory/CreateCategoryUseCase";
-import { ListCategoriesUseCase } from "../../../../src/modules/cars/useCases/listCategories/ListCategoriesUseCase";
-import { CategoriesRepositoryMock } from "../../../mocks/repositories/CategoriesRepositoryMock";
+import { Category } from "@modules/cars/entities/Category";
+import { CreateCategoryUseCase } from "@modules/cars/useCases/createCategory/CreateCategoryUseCase";
+import { ListCategoriesUseCase } from "@modules/cars/useCases/listCategories/ListCategoriesUseCase";
+import { CategoriesRepositoryMock } from "@mocks/repositories/CategoriesRepositoryMock";
 
 let listCategoriesUseCase: ListCategoriesUseCase;
 let createCategoryUseCase: CreateCategoryUseCase;

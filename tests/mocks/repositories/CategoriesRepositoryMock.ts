@@ -1,8 +1,5 @@
-import { Category } from "../../../src/modules/cars/entities/Category";
-import {
-  ICategoriesRepository,
-  ICreateCategoryDTO
-} from "../../../src/modules/cars/repositories/ICategoriesRepository";
+import { Category } from "@modules/cars/entities/Category";
+import { ICategoriesRepository, ICreateCategoryDTO } from "@modules/cars/repositories/ICategoriesRepository";
 
 export class CategoriesRepositoryMock implements ICategoriesRepository {
   categories: Category[] = [];
