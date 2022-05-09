@@ -9,7 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Users authentication
+- Users authentication feature
+- Express async errors handler
 
 ### Changed
 
