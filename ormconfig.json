@@ -5,9 +5,9 @@
   "username": "postgres",
   "password": "docker",
   "database": "rentalx",
-  "entities": ["./src/modules/**/entities/*.ts"],
-  "migrations": ["./src/database/migrations/*.ts"],
+  "entities": ["./src/infra/repositories/entities/*.ts"],
+  "migrations": ["./src/infra/repositories/typeorm/migrations/*.ts"],
   "cli": {
-    "migrationsDir": "./src/database/migrations"
+    "migrationsDir": "./src/infra/repositories/typeorm/migrations"
   }
 }

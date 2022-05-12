@@ -7,18 +7,16 @@
     "resolveJsonModule": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "baseUrl": "./src",
+    "baseUrl": "./",
     "paths": {
       "@config/*": ["config/*"],
-      "@errors/*": ["errors/*"],
-      "@middlewares/*": ["middlewares/*"],
-      "@modules/*": ["modules/*"],
-      "@routes/*": ["routes/*"],
-      "@shared/*": ["shared/*"],
-      "@utils/*": ["utils/*"],
-      "@mocks/*": ["../tests/mocks/*"]
+      "@docs/*": ["docs/*"],
+      "@tests/*": ["tests/*"],
+      "@application/*": ["src/application/*"],
+      "@domains/*": ["src/domains/*"],
+      "@infra/*": ["src/infra/*"]
     }
   },
-  "include": ["src/**/*", "tests/**/*", "src/server.ts", "*.ts"],
+  "include": ["src/**/*", "tests/**/*", "docs/**/*", "config/**/*", "*.ts"],
   "exclude": ["node_modules/**/*"]
 }
